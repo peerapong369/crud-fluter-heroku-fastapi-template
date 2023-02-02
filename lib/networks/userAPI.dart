@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserAPI {
-  String url = 'https://lpnose-database.herokuapp.com';
+  String url = 'https://prp-app-money.herokuapp.com';
 
   Future<String> register(
       {required String username, required String password}) async {

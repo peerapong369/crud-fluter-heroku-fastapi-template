@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import '../models/stock.dart';
 
 class InventoryAPI {
-  String url = 'https://lpnose-database.herokuapp.com/inventory';
+  String url = 'https://prp-app-money.herokuapp.com/inventory';
 
   Future<List<Stock?>?> getAll() async {
     UserAPI userAPI = UserAPI();
